@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>智慧教育</title>
+    <link rel="stylesheet" href="./css/jquery.fullPage.css">
+    <link rel="stylesheet" href="./css/carousel.css">
+    <link rel="stylesheet" href="./css/swiper.min.css">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<style>
+</style>
+
+<body>
+    <!-- 导航栏 -->
+    <div class="nav">
+        <div class="w">
+            <img src="./img/logo.png" alt="">
+            <ul>
+                <li class="act">
+                    <a href="./index.html">首页</a>
+                </li>
+                <li>
+                    <a href="./familyservice.html">家庭服务</a>
+                </li>
+                <li>
+                    <a href="./schoolservice.html">学校服务</a>
+                </li>
+                <li>
+                    <a href="./aboutour.html">关于我们</a>
+                </li>
+                <li>
+                    <a href="./openclass.html">慧智公开课</a>
+                </li>
+                <li class="last">
+                    <a href="">
+                        <span class="tel"></span>
+                        <span class="tel_num">028-62528029</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="main">
+        <div class="section page1">
+            <div class="swiper-container-index-banner">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <a href="">
+                            <img src="./img/web/2.png" alt="">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="">
+                            <img src="./img/web/1.png" alt="">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="">
+                            <img src="./img/web/3.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <!-- 如果需要分页器 -->
+                <div class="swiper-pagination"></div>
+            </div>
+
+        </div>
+        <!-- 第二屏 -->
+        <div class="section page2">
+            <div class="w">
+                <div class="sec_tit">
+                    动态化的专业辅导与训练，高效的家庭教育解决方案
+                </div>
+                <div class="sec_list_con clearfix">
+                    <div class="sec_list">
+                        <img src="./img/web/IconA.png" alt="">
+                        <h3>更多的选择</h3>
+                        <p>家长学校/社区服务/辅导课程/心智测评</p>
+                        <p>......</p>
+                        <p>不断更新的服务项目</p>
+                    </div>
+                    <div class="sec_list">
+                        <img src="./img/web/IconB.png" alt="">
+                        <h3>更针对的家庭服务</h3>
+                        <p>心智辅导/心智测评/训练营/视听教育</p>
+                        <p>教子订阅/专项班</p>
+                    </div>
+                    <div class="sec_list">
+                        <img src="./img/web/Icon.png" alt="">
+                        <h3>更有效的解决方案</h3>
+                        <p>100，00+用户选择与关注</p>
+                    </div>
+                </div>
+            </div>
+            <div class="sec_bottom">
+                <iframe src="./Carousel/Carousel.html" frameborder="0" style="width:1200px;height: 420px" scrolling="no"></iframe></iframe>
+            </div>
+
+        </div>
+        <div class="section page3">
+            <div class="page3_top">
+                <img src="./img/web/7.png" alt="">
+                <div class="page3_ab">
+                    <h3>家庭教育标配应用</h3>
+                    <p>关注慧智家庭教育，国内经验丰富的互联网家庭教育服务平台订阅号，每天分享家庭教育技巧，希望我们的努力让你每天的幸福更多一点！</p>
+                </div>
+            </div>
+            <div class="teach_tit">
+                多名教育与心理专家提供服务
+            </div>
+            <div class="teacher"><img src="./img/web/5.png" alt=""></div>
+        </div>
+
+</body>
+<script src="./js/jquery.min.js"></script>
+<script src="./js/jquery.fullPage.min.js"></script>
+<script src="./js/swiper.min.js"></script>
+<script src="./js/jquery.carousel.js"></script>
+<link rel="stylesheet" href="./js/animate.js">
+<link rel="stylesheet" href="./js/my.js">
+<script src="./js/index.js"></script>
+<script>
+
+    $('.main').fullpage({
+        sectionsColor: ['#fff', '#fff', '#fff', '#fff'],
+        srollspeed: 400, //设置滚动速度，单位毫秒，默认700
+        navigation: true,
+        navigationPosition: "right",
+        css3: true,
+        fitToSection: true,//设置是否自适应整个窗口的空间，默认值：true
+
+    })
+    var mySwiper = new Swiper('.swiper-container-index-banner', {
+        autoplay: true,
+        loop: true, // 循环模式选项
+        paginationClickable: true,
+
+        // 如果需要分页器
+        pagination: {
+            el: '.swiper-pagination',
+        },
+
+    })
+    var mySwiper = new Swiper('.swiper-container-page3-tel', {
+        autoplay: true,
+        loop: true, // 循环模式选项
+        paginationClickable: true,
+
+
+    })
+
+
+</script>
+
+</html>

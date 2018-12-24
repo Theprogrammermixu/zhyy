@@ -1,0 +1,170 @@
+body,html {
+    width: 100%;
+    height: 100%;
+}
+/* nav 部分 */
+.act a{
+    color: #57d4ca !important;
+}
+.nav {
+    position: fixed;
+    height: 70px;
+    line-height: 70px;
+    background:#fff;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+    border-bottom: 1px solid #57d4ca;
+}
+.nav ul {
+ float: right;
+}
+.nav ul li {
+    float: left;
+    padding: 0 20px;
+}
+.nav ul li a {
+    font-size:18px;
+    font-family: '宋体';
+}
+.nav ul li.last {
+    padding-left: 36px;
+    position: relative;
+}
+.nav ul li a .tel {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background: url(../img/002dianhua.png) ;
+    position: absolute;
+    top: 18px;
+    left: 0;
+
+}
+.nav ul li a:hover {
+    color: #57d4ca;
+}
+/* 第一屏banner */
+.section {
+   width: 100%;
+   height: 100%;
+}
+.swiper-container-index-banner {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.swiper-container-index-banner a {
+    width: 100%;
+    height: 100%;
+}
+.swiper-container-index-banner a img {
+    width: 100%;
+    height: 100%; 
+}
+/*  */
+#fp-nav ul li a.active span, .fp-slidesNav ul li a.active span {
+    background: #48cabd85;
+    
+}
+/* 第二屏 */
+.sec_tit {
+    font-family: '黑体';
+    font-size: 40px;
+    color: #6A7884;
+    margin-top: 110px;
+    height: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.sec_list_con {
+    z-index: 11;
+
+}
+.sec_list {
+    width: 33.33%;
+    text-align: center;
+    float: left;
+}
+.sec_list img {
+    width: 110px;
+    height: 110px;
+}
+.sec_list h3 {
+    font-family: '黑体';
+    font-size: 23px;
+    color: #6A7884;
+    margin:7.5% 0;
+
+}
+.sec_list p {
+    font-family: '黑体';
+    font-size: 14px;
+    color: #6A7884
+}
+
+.sec_bottom {
+    height: 48%;
+    background-color: #F6F8F9;    
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    /* margin-top: -20px; */
+}
+/* .sec_bottom iframe {
+    position: absolute;
+    top: -20px;
+        left: 0;
+} */
+
+
+/* 第三屏 */
+.page3{
+    width: 100%;
+    height: 100%;
+}
+ .page3_top {
+    width: 100%;
+    height: 57.4%;
+    position: relative;
+}
+.page3_top img {
+    width: 100%;
+    height: 100%;
+}
+.page3_ab {
+    width: 400px;
+    position: absolute;
+    top: 46%;
+    left: 57%;
+}
+.page3_ab h3 {
+    font-family: '黑体';
+    font-size: 40px;  
+    margin-bottom: 20px; 
+    color: #fff;
+
+}
+.page3_ab p {
+    font-size: 12px;
+    color: #fff;
+    margin-top: 30px;
+
+}
+.teacher{
+    text-align: center;
+    width: 100%;
+}
+.teacher img {
+    width: 50%;
+}
+.teach_tit {
+    margin-top: 2.7%;
+    font-family: '黑体';
+    font-size: 40px;   
+     color: #6A7884;
+    margin-bottom: 2.7%;
+    justify-content: center;
+    text-align: center;
+}
+

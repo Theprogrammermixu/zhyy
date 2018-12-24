@@ -1,0 +1,124 @@
+/* familyservice */
+body,html {
+    overflow: visible;
+}
+.familysevice {
+}
+.familysevice .banner {
+    width: 100%;
+    height: 100%;
+ }
+ .familysevice .banner img {
+     width: 100%;
+     height: 100%;
+ }
+ .familysevice .familysevice_tit {
+     width: 100%;
+     text-align: center;
+     margin-top: 100px;
+ }
+ .familysevice .familysevice_tit h3  {
+    font-size: 50px;
+    font-weight: 700;
+    margin: 40px;
+    color: #6A7884;
+ }
+ .familysevice_main {
+     margin-top: 70px;
+ }
+ .familysevice_main>div {
+     margin-top: 20px;
+ }
+ .jzfw {
+     width: 100%;
+     height: 100%;
+     overflow: hidden;
+ }
+ .jzfw_left {
+     float: left;
+     margin-left: 80px;
+ }
+ .jzfw_right {
+    /* margin-left: 220px; */
+
+ }
+ .w {
+     width: 1200px;
+     margin: 0 auto;
+ }
+.jzfw_right_wrap {
+    width: 214px;
+    height: 205px;
+    color: #661E1E;
+    letter-spacing:15px;
+    line-height: 90PX;
+    text-align: center;
+    margin: 0 20px 20px 10px;
+    float: left;
+    position: relative;
+    transition: all 1s;
+    margin-right: 50px;
+
+}
+.jzfw_right_wrap:nth-child(1){
+    background: url(../img/web/F1.png);
+}
+.jzfw_right_wrap:nth-child(2){
+    background: url(../img/web/F2.png);
+}
+.jzfw_right_wrap:nth-child(3){
+    background: url(../img/web/F3.png);
+}
+.jzfw_right_wrap:nth-child(4){
+    background: url(../img/web/F4.png);
+}
+.jzfw_right_wrap:nth-child(5){
+    background: url(../img/web/F5.png);
+}
+.jzfw_right_wrap:nth-child(6){
+    background: url(../img/web/F6.png);
+}
+.jzfw_right_wrap>div {
+    transition: all 1s;
+    /*背面不可视*/
+    backface-visibility: hidden;
+}
+.jzfw_right_wrap_hd {
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    border-radius: 80px;
+    background: linear-gradient(#FF7F50, #FF7F50);
+    transform: rotateY(180deg);
+    transition: all 1s;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.jzfw_right_wrap:hover .jzfw_right_wrap_hd {
+    transform: none;
+    box-shadow: 0 0 10px 5px pink;
+    border-radius: 50px;
+}
+.jzfw_right_wrap p:nth-child(1) {
+    margin-top: 50px;
+}
+.jzfw_right_wrap p {
+    color: #661E1E;
+    font-size: 50px;
+    letter-spacing:15px;
+}
+.jzfw_right_wrap_hd a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+    font-size: 30px;
+    color: #fff;
+    line-height: 205px;
+    text-align: center;
+    padding-left: 13px;
+    box-sizing: border-box;
+    font-family: '黑体';
+}
+

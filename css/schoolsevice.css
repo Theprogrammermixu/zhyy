@@ -1,0 +1,133 @@
+body,html {
+    overflow: visible;
+}
+.schoolsevice {
+}
+.schoolsevice .banner {
+    width: 100%;
+    height: 100%;
+ }
+ .schoolsevice .banner img {
+     width: 100%;
+     height: 100%;
+ }
+ .schoolsevice .schoolsevice_tit {
+     width: 100%;
+     text-align: center;
+     color: #747580;
+     font-family: '黑体';
+ }
+ .schoolsevice .schoolsevice_tit h3  {
+    font-size: 40px;
+    font-weight: 700;
+    margin: 100px 0 25px 0;
+ }
+ .schoolsevice .schoolsevice_tit p{
+     margin-bottom: 50px;
+ }
+ .listicon {
+    width: 100%;
+ }
+ .listicon>div {
+    width: 33.333%;
+    height: 250px;
+    float: left;
+    text-align: center;
+ }
+ .listicon>div>img {
+    transition: 2s;
+
+ }
+ .listicon>div>img:hover {
+    transform:rotate(360deg);
+
+ }
+ .listicon>div>h4 {
+        font-family: '黑体';
+        font-size: 28px;
+        color: #2b2c37;
+        margin: 20px 0;
+ }
+ .listicon>div>p {
+        font-family: '黑体';
+        font-size: 18px;
+        color: #747580;
+ }
+ /* 学校服务综合解决方案 */
+ .zhjjfa {
+    display: flex;
+    flex-direction: row ;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: -40px;
+ }
+ .zhjjfa>div {
+    width: 30%;
+    /* float: left; */
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    overflow: hidden;
+ }
+ .zhjjfa>div>h4 {
+     font-family: '黑体';
+    font-size: 28px;
+    color: #bc3434;
+    margin: 25px 0;
+    font-weight: 700;
+ }
+ .zhjjfa>div>p {
+    font-family: '黑体';
+    font-size: 18px;
+    color: #747580;
+    line-height: 24px;
+ }
+.hzxx_main {
+    margin-top: 30px;
+    text-align: center;
+    
+}
+.hzxx_main p {
+    margin: 20px 0;
+    color: #000;
+}
+.zhxyfw {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.zhxyfw_left {
+    float: left;
+}
+.zhxyfw_left h2 {
+    font-size:32px;
+    color: #000;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.zhxyfw_left ul {
+  margin: 20px 0 ;
+}
+.zhxyfw_left ul li {
+    margin-top: 10px;
+    color: #000;
+}
+
+.pcmall {
+    display: block;
+    width: 300px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #00beaf;
+    color: #fff;
+    font-size: 16px;
+    margin: 30px 0;
+    border-radius: 8px;
+}
+.zhxyfw_right {
+   margin-left: 700px;
+}
+.zhxyfw_right img {
+    width: 400px;
+    height: 400px;
+}

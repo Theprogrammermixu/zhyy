@@ -1,0 +1,106 @@
+body,html {
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+}
+.banner {
+    width: 100%;
+    height: 100%;
+}
+.banner>img {
+    width: 100%;
+    height: 100%;
+}
+.w  {
+    /* background-color: antiquewhite; */
+}
+.box,.box1 {
+    position: relative;
+    margin-top: 50px;
+    text-align: center;
+}
+.tab,.tab1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-bottom: 1px solid #ccc;
+    height: 72px;
+}
+
+.tab_item,
+.tab_item1 {
+    width: 145px;
+    height: 50px;
+    text-align: center;
+    margin: 20px;
+    font-size: 30px;
+    font-family: '黑体';
+    cursor: pointer;
+    margin-left: 200px;
+}
+.content,.content1 {
+    text-align: left;
+    position: absolute;
+    top: 140px;
+    left: 0;
+}
+.current {
+   
+    border-bottom: 3px solid aqua;
+    color: aqua;
+}
+.content div p {
+    margin: 20px;
+    line-height: 32px;
+    font-family: '黑体';
+}
+.com1 {
+    border: 1px solid #ccc;
+}
+.com1 p {
+    line-height: 18px !important;
+}
+.cooperate {
+    display: flex;
+    /* margin: 20px; */
+}
+.cooperate_son {
+    padding: 20px;
+    /* border: 1px solid #ccc; */
+    margin: 20px;
+}
+.cooperate_son h3 {
+    font-size: 24px;
+    color: #00BEAF;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+.cooperate_son h4 {
+    font-size: 18px;
+    font-weight: 300;
+}
+.cooperate_son p {
+    line-height: 22px !important;
+}
+.box1 {
+
+}
+.tab1 {
+    width: 50%;
+    margin: 0 auto;
+}
+.tab1_item {
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    font-family: '黑体';
+    font-size: 22px;
+}
+.content1 {
+    text-align: left;
+    margin-left: 200px;
+}
+.current1 {
+    color: #fff;
+    background-color: antiquewhite;
+}
